@@ -275,6 +275,7 @@
   }
   .equipe .container .grupo {
     padding: 0px;
+    justify-content: space-around;
   }
 }
 
