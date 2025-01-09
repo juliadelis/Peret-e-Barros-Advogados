@@ -1,0 +1,120 @@
+header {
+  background-color: #0e1f2b;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 197px;
+}
+
+header .container .links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+header .container .links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+header .container .links .pt {
+  border-right: 1px solid #ce9461;
+  padding-right: 15px;
+}
+
+.background {
+  background-color: #0e1f2b;
+  background-image: url(../../img/backgroundpattern.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding-top: 170px;
+}
+
+.background .container .row .col {
+  align-self: flex-start;
+}
+
+.background .container .row .col .texto h2 {
+  color: #ce9461;
+  font-size: 48px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.background .container .row .col .texto p {
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 18px;
+}
+
+.background .container .row .col .linkedin {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 85px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.background .container .row .col .linkedin a {
+  color: #ce9461;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.button a {
+  color: #ce9461;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  margin-top: 112px;
+  padding-bottom: 70px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  .background {
+    padding-top: 80px;
+  }
+  .background .container .row .col img {
+    max-width: 90vw;
+  }
+
+  .background .container .row .col .texto h2 {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .background .container .row .col .texto p,
+  .background .container .row .col .linkedin a {
+    font-size: 14px;
+  }
+  .background .container .row .col .linkedin {
+    padding-top: 20px;
+  }
+  .button a {
+    margin-top: 40px;
+  }
+  .background .container .links {
+    flex-direction: column-reverse;
+  }
+
+  header .container {
+    height: 85px;
+  }
+
+  header .container .links a img {
+    display: none;
+  }
+  .logo img {
+    height: 51px;
+  }
+}

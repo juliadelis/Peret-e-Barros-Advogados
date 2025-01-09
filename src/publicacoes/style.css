@@ -1,0 +1,125 @@
+header {
+  background-color: #0e1f2b;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 197px;
+}
+
+header .container .links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+header .container .links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+header .container .links .pt {
+  border-right: 1px solid #ce9461;
+  padding-right: 15px;
+}
+
+.background {
+  background-color: #0e1f2b;
+  background-image: url(../img/backgroundpattern.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding-top: 170px;
+}
+
+.background .quadro {
+  background-color: #ce9461;
+  padding: 20px 40px;
+}
+
+.background .quadro h2 {
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.background .quadro .livros {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.background .quadro .livros .livro {
+  display: flex;
+  flex-direction: column;
+  border-left: 3px solid #1a242d;
+  padding-left: 10px;
+  height: fit-content;
+  text-decoration: none !important;
+}
+
+.background .quadro .livros .livro h3 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #0e1f2b;
+  text-transform: uppercase;
+}
+
+.background .quadro .livros .livro p {
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+}
+
+.button a {
+  color: #ce9461;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  margin-top: 112px;
+  padding-bottom: 70px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  header .container {
+    height: 85px;
+  }
+  header .container .links a img {
+    display: none;
+  }
+  .logo img {
+    height: 51px;
+  }
+
+  .background {
+    padding-top: 30px;
+  }
+
+  .background .quadro h2 {
+    font-size: 20px;
+  }
+
+  .background .quadro .livros .livro h3 {
+    font-size: 18px;
+  }
+
+  .background .quadro .livros .livro p {
+    font-size: 14px;
+  }
+
+  .background .quadro {
+    padding: 13px 16px;
+  }
+  .background .quadro .livros {
+    margin-top: 16px;
+  }
+
+  .button a {
+    margin-top: 30px;
+  }
+}

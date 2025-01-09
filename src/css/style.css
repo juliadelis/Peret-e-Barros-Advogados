@@ -1,0 +1,286 @@
+.banner {
+  background-image: url(../img/Banner.png);
+  height: 568px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 97px 0px;
+  align-items: start;
+  justify-content: end;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner .title {
+  font-size: 46px;
+  font-weight: 600;
+  color: #0e1f2b;
+  text-transform: uppercase;
+}
+
+.title2 {
+  font-size: 46px;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+}
+
+.banner .subtitle {
+  font-size: 28px;
+  color: white;
+  border-left: 6px solid #0e1f2b;
+  padding-left: 12px;
+  margin-left: 3px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.como-atuamos {
+  background-color: #0e1f2b;
+  background-image: url(../img/backgroundpattern.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding-bottom: 170px;
+}
+
+.como-atuamos .container .items .title2 {
+  padding-top: 169px;
+  font-weight: 400;
+}
+
+.subtitle2 {
+  font-size: 32px;
+}
+
+.como-atuamos .container .items .subtitle2 {
+  color: #ce9461;
+  text-transform: uppercase;
+  margin-top: 22px;
+  font-weight: 400;
+}
+
+.como-atuamos .container .items .text {
+  border-left: 2px solid #ce9461;
+  padding-left: 15px;
+  color: white;
+  margin-top: 22px;
+  font-weight: 400;
+  font-size: 23px;
+  max-width: 880px;
+}
+
+.como-atuamos .container .items .button {
+  width: 880px;
+}
+.como-atuamos .container .items .button a {
+  color: #ce9461;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.equipe {
+  background-color: #0e1f2b;
+}
+
+.equipe .container {
+  background-color: #ce9461;
+  margin-top: 169px;
+  padding: 50px;
+}
+
+.equipe .container .grupo {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  text-decoration: none !important;
+  flex-wrap: wrap;
+}
+.equipe .container .grupo .adv {
+  text-decoration: none;
+}
+
+.equipe .container .grupo .adv img {
+  max-height: 332px;
+  width: 277px;
+  display: flex;
+  justify-content: end;
+}
+
+.equipe .container .grupo .adv h3 {
+  color: #0e1f2b;
+  font-weight: 400;
+  max-width: 277px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  text-decoration: none !important;
+}
+
+.equipe .container .grupo .adv p {
+  color: white;
+  font-weight: 400;
+  max-width: 17px;
+  text-transform: uppercase;
+  text-decoration: none !important;
+}
+
+.publicacoes {
+  padding: 170px 0;
+}
+
+.publicacoes .container .row .pub {
+  max-width: 500px;
+}
+.publicacoes .container .row .col .title2 {
+  font-weight: 400;
+  justify-content: flex-end;
+}
+
+.publicacoes .container .row .col img {
+  margin-top: 50px;
+  transform: translate(-100px);
+}
+.publicacoes .container .row .grupo {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.publicacoes .container .row .grupo .livro {
+  border-left: 3px solid #ce9461;
+  padding-left: 15px;
+  align-items: center;
+  height: fit-content;
+}
+
+.publicacoes .container .row .grupo .button a {
+  color: #ce9461;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.publicacoes .container .row .grupo .livro .subtitle2 {
+  color: #ce9461;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.publicacoes .container .row .grupo .livro .nome {
+  color: white;
+  font-size: 25px;
+}
+
+.footer {
+  background-color: #0e1f2b;
+  margin: none !important;
+  padding-bottom: 150px;
+}
+
+.footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer .container div .title2 {
+  font-size: 38px;
+  font-weight: 400;
+}
+
+.footer .container div {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.footer .container div .contato {
+  text-decoration: none;
+  color: #ce9461;
+  font-size: 22px;
+}
+
+.footer .container div .endereco {
+  color: white;
+  font-size: 22px;
+  margin-top: 65px;
+}
+
+@media only screen and (max-width: 900px) {
+  .footer .container {
+    gap: 20px;
+  }
+  .publicacoes .container .row .pub {
+    width: auto;
+  }
+
+  .como-atuamos .container .items .button {
+    width: 100%;
+  }
+  .como-atuamos .container .items .button a {
+    justify-content: center;
+  }
+  .title2 {
+    font-size: 22px;
+  }
+  .title {
+    font-size: 20px !important;
+  }
+  .subtitle {
+    font-size: 12px !important;
+  }
+  .banner {
+    max-height: 200px;
+    padding: 0;
+  }
+
+  .banner .container .row {
+    flex-wrap: wrap;
+  }
+  .como-atuamos .container .items .subtitle2 {
+    font-size: 18px;
+  }
+  .como-atuamos .container .items .text,
+  .publicacoes .container .row .grupo .livro .nome,
+  .footer .container div .contato {
+    font-size: 14px;
+  }
+  .equipe .container {
+    padding: 10px 18px;
+    margin-top: 80px;
+  }
+  .equipe .container .grupo .adv h3,
+  .footer .container div .title2 {
+    font-size: 20px;
+  }
+  .como-atuamos .container .items .title2 {
+    padding-top: 80px;
+  }
+  .como-atuamos,
+  .footer {
+    padding-bottom: 80px;
+  }
+  .publicacoes {
+    padding: 80px 0;
+  }
+  .footer .container div .endereco {
+    margin-top: 0px;
+    font-size: 14px;
+  }
+  .footer .container div {
+    gap: 5px;
+  }
+  .equipe .container .grupo {
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .publicacoes .container .row .pub {
+    overflow-x: hidden;
+  }
+}
