@@ -107,6 +107,7 @@
   width: 277px;
   display: flex;
   justify-content: end;
+  object-fit: cover;
 }
 
 .equipe .container .grupo .adv h3 {
