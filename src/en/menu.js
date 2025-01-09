@@ -23,7 +23,7 @@ function createMenu(containerId, items) {
   const logoLink = document.createElement("a");
   logoLink.href = "/";
   const logoImg = document.createElement("img");
-  logoImg.src = "../img/logo.svg";
+  logoImg.src = "../img/logoAdv.svg";
   logoImg.alt = "Logo da empresa";
   logoImg.style.height = "96px";
   logoLink.appendChild(logoImg);
