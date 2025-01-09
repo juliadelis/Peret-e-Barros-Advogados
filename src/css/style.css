@@ -274,8 +274,8 @@
     gap: 5px;
   }
   .equipe .container .grupo {
-    padding: 0px;
     justify-content: space-around;
+    padding: 0px;
   }
 }
 
