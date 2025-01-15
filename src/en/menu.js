@@ -49,7 +49,8 @@ function createMenu(containerId, items) {
   const linkedinItem = document.createElement("li");
   linkedinItem.className = "linkedin-logo";
   const linkedinLink = document.createElement("a");
-  linkedinLink.href = "https://www.linkedin.com/company/pfmbadvogados/";
+  linkedinLink.href =
+    "https://www.linkedin.com/company/peret-e-barros-advogados/";
   linkedinLink.target = "_blank";
   const linkedinImg = document.createElement("img");
   linkedinImg.src = "../img/linkedin.svg";
