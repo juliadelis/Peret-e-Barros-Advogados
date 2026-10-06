@@ -4,7 +4,7 @@ function isEnglishPath() {
 
 const menuItems = [
   { label: "FIRM", link: "/en/#como-atuamos" },
-  { label: "TEAM", link: "/en/#equipe" },
+  { label: "PARTNERS", link: "/en/#equipe" },
   { label: "PUBLICATIONS", link: "/en/#publicacoes" },
   { label: "CONTACTS", link: "/en/#contato" },
 ];
