@@ -93,7 +93,7 @@
 .equipe .container .grupo {
   padding: 30px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: start;
   text-decoration: none !important;
   flex-wrap: wrap;
